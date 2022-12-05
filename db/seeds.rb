@@ -86,4 +86,17 @@ coffees = [
   
   users.each {|user| User.create(user)}
 
+
+
+  reviews = [
+    {
+        review:"My coffee is dry",user_id: 1, coffee_id: 2
+    },
+   
+  ]
+  
+  puts " ⚡ creating reviews...."
+  
+  reviews.each {|review| Review.create(review)}
+
   
