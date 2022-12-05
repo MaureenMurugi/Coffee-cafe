@@ -11,11 +11,11 @@
 #       Choose the win32 build.
 #       Install PostgreSQL and put its /bin directory on your path.
 #
-# Configure Using Gemfile
+# Configure Using Gemfile-
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
+  adapter: sqlite3
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
