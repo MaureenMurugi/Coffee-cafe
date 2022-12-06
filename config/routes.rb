@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :logins
+  resources :logins, only: [:index, :create, :show, :destroy ]
   resources :reviews, only: [:index, :create, :show, :destroy, :update]
   resources :coffees, only: [:index, :show]
   resources :users, only: [:index, :create, :show, :destroy]
